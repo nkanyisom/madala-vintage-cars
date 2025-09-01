@@ -29,7 +29,7 @@ const vintageCars = [
         name: "Cadillac Eldorado",
         specs: "8.2L V8 • 215 HP • Automatic",
         description: "A luxurious personal luxury coupe featuring Cadillac's distinctive styling and the largest production V8 engine ever made.",
-        image: "images/ford_1975.jpg"
+        image: "images/Porsche_911_Turbo_1975.jpg"
     },
     {
         year: 1976,
