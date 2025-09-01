@@ -1,0 +1,31 @@
+{
+  "name": "madala-vintage-cars",
+  "version": "1.0.0",
+  "description": "A showcase website for vintage cars from 1975-1985",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "build": "echo 'No build process required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "vintage-cars",
+    "classic-cars",
+    "automotive",
+    "1975-1985",
+    "showcase",
+    "gallery",
+    "responsive-design"
+  ],
+  "author": "Madala Vintage Cars",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkanyisom/madala-vintage-cars.git"
+  },
+  "homepage": "https://nkanyisom.github.io/madala-vintage-cars",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

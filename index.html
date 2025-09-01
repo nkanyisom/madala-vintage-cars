@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madala Vintage Cars | Classic Cars 1975-1985</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Madala Vintage Cars</h1>
+                <span class="tagline">Classic Cars 1975-1985</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Discover Classic Cars from the Golden Era</h2>
+                <p>Explore our curated collection of vintage automobiles from 1975 to 1985</p>
+                <a href="#gallery" class="cta-button">View Collection</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Our Vintage Collection</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-year="all">All Years</button>
+                    <button class="filter-btn" data-year="1975">1975</button>
+                    <button class="filter-btn" data-year="1976">1976</button>
+                    <button class="filter-btn" data-year="1977">1977</button>
+                    <button class="filter-btn" data-year="1978">1978</button>
+                    <button class="filter-btn" data-year="1979">1979</button>
+                    <button class="filter-btn" data-year="1980">1980</button>
+                    <button class="filter-btn" data-year="1981">1981</button>
+                    <button class="filter-btn" data-year="1982">1982</button>
+                    <button class="filter-btn" data-year="1983">1983</button>
+                    <button class="filter-btn" data-year="1984">1984</button>
+                    <button class="filter-btn" data-year="1985">1985</button>
+                </div>
+                <div class="cars-grid" id="carsGrid">
+                    <!-- Cars will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Our Collection</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to Madala Vintage Cars, where we celebrate the golden era of automotive design from 1975 to 1985. This decade marked a transformative period in the automotive industry, featuring iconic designs, innovative engineering, and timeless classics that continue to captivate enthusiasts today.</p>
+                        <p>Our carefully curated collection showcases the most memorable vehicles from this remarkable decade, from sleek sports cars to luxurious sedans and rugged muscle cars that defined an era of automotive excellence.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Vintage Cars</p>
+                        </div>
+                        <div class="stat">
+                            <h3>11</h3>
+                            <p>Years Covered</p>
+                        </div>
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Manufacturers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Visit Our Collection</h3>
+                        <p>📍 123 Classic Car Lane, Vintage City, VC 12345</p>
+                        <p>📞 (555) 123-4567</p>
+                        <p>✉️ info@madalavintage.com</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Madala Vintage Cars. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
