@@ -6,7 +6,7 @@ const vintageCars = [
         name: "Chevrolet Corvette Stingray",
         specs: "5.7L V8 • 165 HP • Manual/Auto",
         description: "The last year of the C3 generation Corvette, featuring the iconic Stingray design with distinctive body lines and pop-up headlights.",
-        image: "images/ford_1975.jpg"
+        image: "images/Chevrolet_Corvette_Stingray_1975.jpg"
     },
     {
         year: 1975,
@@ -20,7 +20,7 @@ const vintageCars = [
         name: "Porsche 911 Turbo",
         specs: "3.0L Flat-6 Turbo • 260 HP • Manual",
         description: "The first production 911 Turbo, introducing forced induction to the iconic sports car with distinctive whale tail spoiler.",
-        image: "images/ford_1975.jpg"
+        image: "images/Porsche_911_Turbo_1975.jpg"
     },
 
     // 1976 Cars
